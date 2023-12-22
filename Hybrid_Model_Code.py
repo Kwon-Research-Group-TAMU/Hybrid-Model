@@ -256,7 +256,7 @@ class DifferentialEquation1(layers.Layer):
 
             self.Du_radial=Du_radial_1+Du_radial_2
 
-            '''The function has Neumann boundary condition as of now, for both Dirichlet and Neumann the same boundary condition gets applies, a user can write a class for Drichilet Boundary conditions and update the code'''
+            '''The function has Neumann boundary condition as of now, for both Dirichlet and Neumann the same boundary condition gets applied, a user can write a class for Dirichlet Boundary conditions and update the code'''
             BC_type='Nuemann'
             delta_t=0.015
 
